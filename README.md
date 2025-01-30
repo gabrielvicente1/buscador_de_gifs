@@ -1,16 +1,52 @@
-# buscador_de_gifs
+# Conversor de Moedas - Giphy App
 
-A new Flutter project.
+Este projeto Flutter permite buscar e exibir GIFs da API do Giphy. O usuário pode visualizar GIFs em tendência e pesquisar novos GIFs através de um campo de pesquisa.
 
-## Getting Started
+## 📌 Funcionalidades
+- Exibe GIFs populares da API do Giphy.
+- Permite pesquisa de GIFs pelo nome.
+- Mostra os resultados em um layout responsivo em grade.
 
-This project is a starting point for a Flutter application.
+## 🛠 Tecnologias Utilizadas
+- **Flutter**: SDK para desenvolvimento de aplicativos multiplataforma.
+- **Dart**: Linguagem de programação usada no Flutter.
+- **HTTP**: Biblioteca para fazer requisições à API do Giphy.
+- **Giphy API**: Fonte de GIFs animados.
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Dependências
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Como Rodar o Projeto
+1. **Clone o repositório**
+   ```sh
+   git clone https://github.com/seu-usuario/buscador_de_gifs.git
+   cd conversor_de_moedas
+   ```
+2. **Instale as dependências**
+   ```sh
+   flutter pub get
+   ```
+3. **Execute o projeto**
+   ```sh
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🖼️ Estrutura do Projeto
+```
+/lib
+  ├── main.dart            # Arquivo principal do aplicativo
+  ├── home_page.dart       # Tela principal com a busca de GIFs
+  ├── widgets/
+      ├── gif_grid.dart    # Widget responsável pela exibição dos GIFs
+```
+
+## 🔑 Chave da API
+O projeto utiliza a chave de API do Giphy. Para alterar a chave, edite as URLs nas requisições HTTP dentro do arquivo `home_page.dart`.
+
+## 📄 Licença
+Este projeto está licenciado sob a [MIT License](LICENSE).
