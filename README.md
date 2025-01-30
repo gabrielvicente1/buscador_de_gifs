@@ -1,4 +1,4 @@
-# Conversor de Moedas - Giphy App
+# Pesquisa de Giphy - Giphy App
 
 Este projeto Flutter permite buscar e exibir GIFs da API do Giphy. O usuário pode visualizar GIFs em tendência e pesquisar novos GIFs através de um campo de pesquisa.
 
