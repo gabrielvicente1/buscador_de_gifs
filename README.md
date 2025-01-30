@@ -1,4 +1,4 @@
-# Pesquisa de Giphy - Giphy App
+# Buscador de Giphy - Giphy App
 
 Este projeto Flutter permite buscar e exibir GIFs da API do Giphy. O usuário pode visualizar GIFs em tendência e pesquisar novos GIFs através de um campo de pesquisa.
 
@@ -25,7 +25,7 @@ dependencies:
 1. **Clone o repositório**
    ```sh
    git clone https://github.com/seu-usuario/buscador_de_gifs.git
-   cd conversor_de_moedas
+   cd buscador_de_gifs
    ```
 2. **Instale as dependências**
    ```sh
